@@ -10,6 +10,14 @@
 
 ## Combos
 
+```mermaid
+flowchart LR
+0[F-Air] --> 1[Grab]
+  1 --> 2[F-Throw] --> 3[U-Air]
+  1 --> 20[D-Throw] --> 30[F-Air] --> 40[F-Air] --> 50[U-Air] --> 60[B-Air]
+
+```
+
 - F-Air > Grab
 
   - \> F-Throw > U-Air (Fast fall)\
@@ -47,6 +55,7 @@
     Edge-guard
 
 - Air N-Special
+
   - \>Footstool > D-Air > B-Air\
     70%~
 
