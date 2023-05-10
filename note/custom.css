@@ -1,0 +1,3 @@
+.chapter>li>.section>.chapter-item>a>strong, .chapter>li>.section>.chapter-item>div>strong {
+  display: none;
+}

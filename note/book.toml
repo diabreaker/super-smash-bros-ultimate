@@ -1,0 +1,15 @@
+[book]
+authors = ["oJa6aN"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Super Smash Bros. Ultimate Guide"
+
+[output.html]
+additional-css = ["custom.css"]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+
+[preprocessor]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
